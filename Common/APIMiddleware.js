@@ -3,7 +3,7 @@ import express from 'express';
 import {APIResponse} from './APIResponse.js';
 import {APIError} from './APIError.js';
 
-const RESPONSE_TIMEOUT = 1 * 1000; // 30 sec
+const RESPONSE_TIMEOUT = 30 * 1000; // 30 sec
 
 /**
  */

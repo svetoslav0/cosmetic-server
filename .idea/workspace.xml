@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba965034-2a77-43e3-bbaf-0b5e998ffe07" name="Default Changelist" comment="" />
+    <list default="true" id="ba965034-2a77-43e3-bbaf-0b5e998ffe07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/APIMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/Common/APIMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/TestController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/TestController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Router/TestRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Router/TestRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,11 +50,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../skip-server" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,8 +64,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Common/Database" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="NodeJS" type="NodeJSConfigurationType" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
@@ -55,30 +89,49 @@
       <updated>1599938560411</updated>
       <workItem from="1599938561769" duration="1730000" />
       <workItem from="1600180052941" duration="7206000" />
-      <workItem from="1600455031646" duration="5495000" />
+      <workItem from="1600455031646" duration="13220000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="703" y="260" width="514" height="522" key="#ESLint" timestamp="1600180451320">
+    <state x="703" y="260" width="514" height="522" key="#ESLint" timestamp="1600525151642">
       <screen x="0" y="0" width="1920" height="1039" />
     </state>
-    <state x="703" y="260" width="514" height="522" key="#ESLint/0.0.1920.1039@0.0.1920.1039" timestamp="1600180451320" />
-    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600191372189">
+    <state x="703" y="260" width="514" height="522" key="#ESLint/0.0.1920.1039@0.0.1920.1039" timestamp="1600525151642" />
+    <state x="430" y="386" width="1060" height="270" key="#SQL_Resolution_Scopes" timestamp="1600525053525">
       <screen x="0" y="0" width="1920" height="1039" />
     </state>
-    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1039@0.0.1920.1039" timestamp="1600191372189" />
+    <state x="430" y="386" width="1060" height="270" key="#SQL_Resolution_Scopes/0.0.1920.1039@0.0.1920.1039" timestamp="1600525053525" />
+    <state x="418" y="177" width="810" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600525109223">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="418" y="177" width="810" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1039@0.0.1920.1039" timestamp="1600525109223" />
+    <state x="693" y="269" width="534" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600526623695">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="693" y="269" width="534" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1039@0.0.1920.1039" timestamp="1600526623695" />
     <state width="921" height="465" key="DebuggerActiveHint" timestamp="1600191614055">
       <screen x="0" y="0" width="1920" height="1039" />
     </state>
     <state width="921" height="465" key="DebuggerActiveHint/0.0.1920.1039@0.0.1920.1039" timestamp="1600191614055" />
-    <state x="743" y="265" width="434" height="515" key="FileChooserDialogImpl" timestamp="1600191370758">
+    <state x="743" y="265" width="434" height="515" key="FileChooserDialogImpl" timestamp="1600461053520">
       <screen x="0" y="0" width="1920" height="1039" />
     </state>
-    <state x="743" y="265" width="434" height="515" key="FileChooserDialogImpl/0.0.1920.1039@0.0.1920.1039" timestamp="1600191370758" />
+    <state x="743" y="265" width="434" height="515" key="FileChooserDialogImpl/0.0.1920.1039@0.0.1920.1039" timestamp="1600461053520" />
     <state width="1878" height="256" key="GridCell.Tab.0.bottom" timestamp="1600455777819">
       <screen x="0" y="0" width="1920" height="1039" />
     </state>
@@ -143,13 +196,25 @@
       <screen x="0" y="0" width="1920" height="1039" />
     </state>
     <state width="1878" height="256" key="GridCell.Tab.3.right/0.0.1920.1039@0.0.1920.1039" timestamp="1600455777822" />
-    <state x="464" y="154" width="992" height="734" key="SettingsEditor" timestamp="1600180432936">
+    <state width="222" height="457" key="HiddenNamespacesPopup" timestamp="1600503206426">
       <screen x="0" y="0" width="1920" height="1039" />
     </state>
-    <state x="464" y="154" width="992" height="734" key="SettingsEditor/0.0.1920.1039@0.0.1920.1039" timestamp="1600180432936" />
-    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1600456168042">
+    <state width="222" height="457" key="HiddenNamespacesPopup/0.0.1920.1039@0.0.1920.1039" timestamp="1600503206426" />
+    <state x="464" y="154" width="992" height="734" key="SettingsEditor" timestamp="1600502740979">
       <screen x="0" y="0" width="1920" height="1039" />
     </state>
-    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1039@0.0.1920.1039" timestamp="1600456168042" />
+    <state x="464" y="154" width="992" height="734" key="SettingsEditor/0.0.1920.1039@0.0.1920.1039" timestamp="1600502740979" />
+    <state width="82" height="441" key="SqlResolveConfigurable" timestamp="1600525053216">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state width="82" height="441" key="SqlResolveConfigurable/0.0.1920.1039@0.0.1920.1039" timestamp="1600525053216" />
+    <state x="824" y="269" width="272" height="505" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1600503244689">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="824" y="269" width="272" height="505" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1039@0.0.1920.1039" timestamp="1600503244689" />
+    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1600526830474">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1039@0.0.1920.1039" timestamp="1600526830474" />
   </component>
 </project>

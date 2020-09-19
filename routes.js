@@ -1,10 +1,12 @@
 import express from 'express';
 
-import testRouter from './Router/TestRouter.js';
-
 // eslint-disable-next-line new-cap
 const router = express.Router();
 
-router.use('/testPath', testRouter);
+import {
+    testRouter,
+} from './kernel.js';
+
+router.use('/testPath', testRouter.registerRoutes());
 
 export default router;

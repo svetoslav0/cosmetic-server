@@ -1,13 +1,29 @@
 import express from 'express';
-import {TestController} from '../Controller/TestController.js';
 import {APIMiddleware} from '../Common/APIMiddleware.js';
 
-// eslint-disable-next-line new-cap
-const router = express.Router();
+/**
+ */
+class TestRouter {
+    /**
+     * @param {Object} controller
+     */
+    constructor(controller) {
+        // eslint-disable-next-line new-cap
+        this._router = express.Router();
+        this._controller = controller;
+    }
 
-router.get('/test', (request, response) => {
-    new APIMiddleware(request, response)
-        .sendResponsePromise(new TestController(request).test());
-});
+    /**
+     * @return {Router}
+     */
+    registerRoutes() {
+        this._router.get('/test', (request, response) => {
+            new APIMiddleware(request, response)
+                .sendResponsePromise(this._controller.test(request));
+        });
 
-export default router;
+        return this._router;
+    }
+}
+
+export default TestRouter;
