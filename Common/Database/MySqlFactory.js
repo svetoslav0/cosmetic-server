@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import mysql from 'mysql';
-import config from '../../config.js';
+import config from '../../Config/config.js';
 
 /**
  */
